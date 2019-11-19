@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">first</string>
+    <string name="fetch">FETCH</string>
+    <string name="crop_name">CROP NAME</string>
+    <string name="crop_stage">CROP STAGE</string>
+    <string name="crop_season">CROP SEASON</string>
+    <string name="crop">CROP</string>
+    <string name="moisture">MOISTURE :</string>
+    <string name="humidity">HUMIDITY :</string>
+    <string name="temp1">TEMP :</string>
+    <string name="slider">TODO</string>
+    <string name="textview">TextView</string>
+</resources>

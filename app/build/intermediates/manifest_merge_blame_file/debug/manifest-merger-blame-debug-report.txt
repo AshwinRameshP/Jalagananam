@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.first"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:8:22-64
+15
+16    <application
+16-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:10:5-34:19
+17        android:allowBackup="true"
+17-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.1] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\668f92656ea417a5dbfea6d82592adcd\core-1.0.1\AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@drawable/icon1"
+20-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:12:9-39
+21        android:label="AGRO-BUDDY"
+21-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:13:9-35
+22        android:roundIcon="@drawable/icon1"
+22-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:14:9-44
+23        android:screenOrientation="portrait"
+23-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:15:9-45
+24        android:supportsRtl="true"
+24-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:16:9-35
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:17:9-40
+26        <activity android:name="com.example.first.ftos" />
+26-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:18:9-51
+26-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:18:19-39
+27        <activity android:name="com.example.first.RegisterActivity" />
+27-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:19:9-54
+27-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:19:19-51
+28        <activity android:name="com.example.first.LoginActivity" />
+28-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:20:9-51
+28-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:20:19-48
+29        <activity
+29-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:21:9-24:52
+30            android:name="com.example.first.index"
+30-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:22:13-34
+31            android:label="JalaGananam"
+31-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:23:13-40
+32            android:screenOrientation="portrait" />
+32-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:24:13-49
+33        <activity
+33-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:25:9-33:20
+34            android:name="com.example.first.MainActivity"
+34-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:26:13-41
+35            android:screenOrientation="portrait" >
+35-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:27:13-49
+36            <intent-filter>
+36-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:28:13-32:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:29:17-69
+37-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:29:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:31:17-77
+39-->C:\Users\PlayGOD\AndroidStudioProjects\fin_water\app\src\main\AndroidManifest.xml:31:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <service
+43-->[com.google.firebase:firebase-database:19.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\7c1b7712293eca3efa95a3298abb9169\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-database:19.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\7c1b7712293eca3efa95a3298abb9169\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:19.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-database:19.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\7c1b7712293eca3efa95a3298abb9169\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-database:19.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\7c1b7712293eca3efa95a3298abb9169\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+48                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+48-->[com.google.firebase:firebase-database:19.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\7c1b7712293eca3efa95a3298abb9169\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-database:19.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\7c1b7712293eca3efa95a3298abb9169\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+50            <meta-data
+50-->[com.google.firebase:firebase-firestore:21.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\011212ff29db09da962b715f5335bee4\jetified-firebase-firestore-21.2.0\AndroidManifest.xml:20:13-22:85
+51                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+51-->[com.google.firebase:firebase-firestore:21.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\011212ff29db09da962b715f5335bee4\jetified-firebase-firestore-21.2.0\AndroidManifest.xml:21:17-111
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-firestore:21.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\011212ff29db09da962b715f5335bee4\jetified-firebase-firestore-21.2.0\AndroidManifest.xml:22:17-82
+53        </service>
+54
+55        <activity
+55-->[com.google.android.gms:play-services-base:17.0.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+56-->[com.google.android.gms:play-services-base:17.0.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+57            android:exported="false"
+57-->[com.google.android.gms:play-services-base:17.0.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.android.gms:play-services-base:17.0.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\8baebf4f86768458d9a1fd3f40e13728\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+59
+60        <provider
+60-->[com.google.firebase:firebase-common:19.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+61            android:name="com.google.firebase.provider.FirebaseInitProvider"
+61-->[com.google.firebase:firebase-common:19.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+62            android:authorities="com.example.first.firebaseinitprovider"
+62-->[com.google.firebase:firebase-common:19.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+63            android:exported="false"
+63-->[com.google.firebase:firebase-common:19.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+64            android:initOrder="100" />
+64-->[com.google.firebase:firebase-common:19.2.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\f2f464e7b3c96930b35ca6d6132a388c\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+65
+66        <meta-data
+66-->[com.google.android.gms:play-services-basement:17.0.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\c5340957497201d83b124f703481552b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+67            android:name="com.google.android.gms.version"
+67-->[com.google.android.gms:play-services-basement:17.0.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\c5340957497201d83b124f703481552b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+68            android:value="@integer/google_play_services_version" />
+68-->[com.google.android.gms:play-services-basement:17.0.0] D:\Documents\Android\.gradle\caches\transforms-2\files-2.1\c5340957497201d83b124f703481552b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+69    </application>
+70
+71</manifest>
