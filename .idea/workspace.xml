@@ -178,6 +178,7 @@
     <option name="width" value="930" />
     <option name="height" value="1090" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -300,7 +301,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.50509167" side_tool="true" weight="0.15722379" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4896694" visible="true" weight="0.18657719" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4896694" visible="true" weight="0.18657719" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" sideWeight="0.51033056" side_tool="true" visible="true" weight="0.18657719" />
@@ -319,7 +320,7 @@
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="9" sideWeight="0.49946696" weight="0.32780084" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Gradle" order="1" visible="true" weight="0.3295302" />
+      <window_info active="true" anchor="right" id="Gradle" order="1" visible="true" weight="0.3295302" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Preview" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
